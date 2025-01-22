@@ -6,6 +6,9 @@ name: Clone
 on:
   pull_request:
     branches: [ "develop" ]
+    
+  pull_request_target:
+    branches: [ "develop" ]
 
 permissions:
   contents: read
